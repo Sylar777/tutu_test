@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/CheckedTextViewFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="scheduleClickFrom"
+        android:text="Нажмите для выбора Станции Отправления"
+        android:textColor="#b90000" />
+
+    <Button
+        android:id="@+id/CheckedTextViewTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="scheduleClickTo"
+        android:text="Нажмите для выбора Станции Прибытия"
+        android:textColor="#003cff" />
+
+    <TextView
+        android:id="@+id/TextViewFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#b90000"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/TextViewTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#003cff"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:onClick="onclick"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#7b4800"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
